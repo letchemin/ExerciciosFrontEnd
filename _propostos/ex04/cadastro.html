@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Cliente</title>
+</head>
+
+<body>
+<div class="container">
+    <h2>Formulario de contato</h2>
+    <form id="" ></form>
+
+    
+</div>
+<script>
+    document.getElementById("contactfora").addEventListener("submit", function(event){
+        event.preventDefault();
+    
+        const name = document.getElementById("name").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+    
+        if(name && phone && email && message) {
+            Document.getElementById("responseMessage").textContent = "formulario enviado com sucesso!"
+            this.reset()
+        }
+        else{
+            document.getElementById("responseMessage").textContent = "por favor, preencha todos os dados"
+        }
+    }) 
+</script>
+</body>
+
+</html>

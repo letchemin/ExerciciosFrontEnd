@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@media screen and (max-width: 419px){
+    body{
+        font-family: sans-serif;
+    }
+}
+.soPequeno {
+    display: none;
+}
+.soMedio {
+    display: none;
+}
+.soGrande{
+    display: none;
+}
+ /*Caixas*/
+ article{
+    width: 90%;
+    float: none;
+    margin: auto;
+ }
+/*Imagens*/
+article img{
+    max-width: 100%;
+}
+/*Corpo do Texto*/
+p{
+    font-size: 1.2cm;
+}
+/*Tamanho Medio*/ 
+@media screen and (min-widht: 420px) and (max-widht:679px) {
+    
+ .soPequeno{
+    display: none;
+ }  
+ .soMedio{
+    display: block;
+ }
+ .soGrande{
+    display: none;
+
+}
+/*Caixas*/
+article {
+    width: 30%;
+    float: left;
+    margin: auto 1.5%;
+    padding-bottom:  30px;
+}
+article:last-of-type img{
+    margin-bottom: 21.5%;
+}
+/*Imagens*/
+article img{
+    max-width: 100%;
+}
+}
