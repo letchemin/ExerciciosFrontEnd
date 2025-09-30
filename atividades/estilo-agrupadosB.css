@@ -55,4 +55,17 @@ article:last-of-type img{
 article img{
     max-width: 100%;
 }
+/*Tamanho Grande*/
+
+    @media screen and (min-widht:680px){
+        .soPequeno{
+            
+        }
+    }
+
+
+           
+    
+
+
 }
