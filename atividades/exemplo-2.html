@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de clique</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <h2>Exemplo de clique</h2>
-    <button onclick=" ">Clique aqui</button>
+    
+    <button>Clique para mudar o texto</button>
     <script>
-        function mostraMensagem(){
-            alert("Você clicou no botão!")
+        function mudarTexto() {
+            document.getElementById("mensagens").innerHTML= "Texto alterado para JavaScript";
         }
     </script>
 </body>
-
 </html>
